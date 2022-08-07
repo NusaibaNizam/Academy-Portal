@@ -1,0 +1,10 @@
+
+.cardContainer{
+    width: 90vw;
+    display: inline-flex;
+    flex-wrap: wrap; 
+    flex-direction: row;
+    margin-top: 3vh;
+    padding-left: 7vw;
+    box-sizing: border-box;
+}

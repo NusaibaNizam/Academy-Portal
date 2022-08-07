@@ -1,0 +1,132 @@
+.context {
+    width: 100vw;
+    position: absolute;
+    top:50vh;
+    height: 40vh;
+    
+}
+
+.context h1{
+    text-align: center;
+    color: #516c96;
+    font-size: 7rem;
+}
+
+
+.area{  
+    width: 100vw;
+    height:40vh;
+    
+   
+}
+
+.circles{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.circles li{
+    position: absolute;
+    display: block;
+    list-style: none;
+    width: 20px;
+    height: 50px;
+    color: rgba(81, 108, 150,.7);
+    animation: animate 25s linear infinite;
+    bottom: -10vh;
+    
+}
+
+.circles li:nth-child(1) svg,.circles li:nth-child(1){
+    left: 25%;
+    height: 80px;
+    animation-delay: 0s;
+    animation-duration: 20s;
+}
+
+
+.circles li:nth-child(2) svg,.circles li:nth-child(2){
+    left: 10%;
+    height: 70px;
+    animation-delay: 0s;
+    animation-duration: 12s;
+}
+
+.circles li:nth-child(3) svg,.circles li:nth-child(3){
+    left: 70%;
+    height: 80px;
+    animation-delay: 0s;
+    animation-duration: 50s;
+}
+
+.circles li:nth-child(4) svg,.circles li:nth-child(4){
+    left: 40%;
+    height: 60px;
+    animation-delay: 0s;
+    animation-duration: 18s;
+}
+
+.circles li:nth-child(5) svg, .circles li:nth-child(5){
+    left: 65%;
+    height: 90px;
+    animation-delay: 0s;
+    animation-duration: 30s;
+}
+
+.circles li:nth-child(6) svg,.circles li:nth-child(6){
+    left: 75%;
+    height: 110px;
+    animation-delay: 0s;
+    animation-duration: 27s;
+}
+
+.circles li:nth-child(7) svg,.circles li:nth-child(7){
+    left: 35%;
+    height: 150px;
+    animation-delay: 0s;
+    animation-duration: 9s;
+}
+
+.circles li:nth-child(8) svg,.circles li:nth-child(8){
+    left: 50%;
+    height: 40px;
+    animation-delay: 0s;
+    animation-duration: 45s;
+}
+
+.circles li:nth-child(9) svg,.circles li:nth-child(9){
+    left: 20%;
+    height: 60px;
+    animation-delay: 0s;
+    animation-duration: 35s;
+}
+
+.circles li:nth-child(10) svg,.circles li:nth-child(10){
+    left: 85%;
+    height: 150px;
+    animation-delay: 0s;
+    animation-duration: 11s;
+}
+
+
+
+@keyframes animate {
+
+    0%{
+        transform: translateY(0) rotate(0deg);
+        color:rgba(81, 108, 150,1);
+    }
+
+    60%{
+        color:rgba(81, 108, 150,.05);
+    }
+    100%{
+        transform: translateY(-180vh) rotate(720deg);
+        color:rgba(81, 108, 150,0);
+    }
+
+}

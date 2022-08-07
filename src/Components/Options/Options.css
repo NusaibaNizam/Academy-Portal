@@ -1,0 +1,30 @@
+.linkContainer {
+    width: 100vw;
+    display: inline-flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.addBtn{
+    width: 30vw;
+    height: 30vh;
+    margin: 7vh 0vw 7vh 13vw;
+    display: flex;
+    flex-direction: column;
+    border: none;
+    outline: none;
+    background: linear-gradient(90deg, #8292ad, #516c96);
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    color: white !important;
+    text-decoration: none;
+    text-align: center;
+    box-shadow: 10px 10px 5px rgba(81, 108, 150, 0.5);
+    font-size:max(2vw,20px);
+    font-weight: bolder;
+    min-width: 250px;
+}
+.addIcon{
+    height: 10vh;
+    min-height: 50px;
+}

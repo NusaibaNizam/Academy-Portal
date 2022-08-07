@@ -1,0 +1,40 @@
+div.container_loading {
+    height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.container_loading div {
+	width: 3vw;
+	height: 3vw;
+	border-radius: 100%;
+	margin: 2vw;
+	animation: bounce 1.5s 0.5s linear infinite;
+}
+.yellow {
+	background-color: #516c96;
+}
+
+.red {
+	background-color:#4684e6;
+    -moz-animation: fadein 3s ease-in 7s forwards; /* Firefox */
+    -webkit-animation: fadein 3s ease-in 7s forwards; /* Safari and Chrome */
+    -o-animation: fadein 3s ease-in 7s forwards; /* Opera */
+    animation: fadein 3s ease-in 7s forwards;
+    -moz-animation-delay: 0.15s;
+    -webkit-animation-delay: 0.15s;
+    -o-animation-delay: 0.15s;
+	animation-delay: 0.10s !important;
+}
+
+@keyframes bounce {
+	100% {
+		transform: scale(1.5);
+	}
+	0% {
+		transform: scale(0.5);
+	}
+	50% {
+		transform: scale(1);
+	}
+}

@@ -1,0 +1,24 @@
+.error_container{
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+.error_big{
+    font-family: 'Brush Script MT';
+    color: #4684e6;
+    font-weight: bolder;
+    font-size: 250px;
+    text-shadow: 2px 2px 5px #325386;
+}
+.error_small{
+    font-family: 'Brush Script MT';
+    color: #516c96;
+    font-size: 55px;
+    margin-top: 3vh;
+    letter-spacing: 10px;
+    text-shadow: 2px 2px 5px #414f68;
+    text-align: center;
+}

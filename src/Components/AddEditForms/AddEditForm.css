@@ -1,0 +1,201 @@
+.fomContainer p {
+    font-size: 1em;
+    font-weight: 300;
+}
+
+.icon {
+    fill: #FEFEFE;
+    padding: 0vh 2vw 0vh 2vw;
+}
+
+.iconContainer {
+    width: 100%;
+    position: relative;
+    text-align: center;
+}
+
+.fomContainer {
+    font-family: "Roboto", arial, sans-serif;
+    color: #fefefe;
+    border-style: solid;
+    border-width: 10px;
+    border-color: rgb(224, 228, 234);
+    border-radius: 10px 10px 10px 10px;
+    background: -moz-linear-gradient( -90deg, #516c96 0%, #8292ad 100%);
+    background: -webkit-linear-gradient( -90deg, #516c96 0%, #8292ad 100%);
+    background: linear-gradient( -90deg, #516c96 0%, #8292ad 100%);
+    width: 90%;
+    min-width: 400px;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 2vh 2vw;
+}
+
+.fomContainer form {
+    margin: 0 auto;
+}
+
+.fomContainer input::-webkit-input-placeholder {
+    color: #fefefe;
+    opacity: 1;
+}
+
+.fomContainer input:focus::-webkit-input-placeholder {
+    color: #111;
+    opacity: .5;
+    transition: all 0.3s ease;
+}
+
+.fomContainer .addInputContainer {
+    
+    margin-bottom: 3vh;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.fomContainer input[type="email"],
+.fomContainer input[type="date"],
+.fomContainer input[type="time"],
+.fomContainer input[type="text"],
+.fomContainer select,
+.fomContainer textarea,
+.fomContainer input[type="number"],
+.fomContainer input[type="password"],
+.fomContainer input[type="submit"]:focus {
+    outline: 0;
+}
+
+.fomContainer input[type="email"],
+.fomContainer input[type="date"],
+.fomContainer input[type="time"],
+.fomContainer input[type="text"],
+.fomContainer select,
+.fomContainer textarea,
+.fomContainer input[type="number"],
+.fomContainer input[type="password"] {
+    font-weight: 700;
+    font-size: 1.4em;
+    padding: 10px;
+    border-width: 2px;
+    border-color: rgba(247, 247, 247, .3);
+    border-style: solid;
+    background: transparent;
+    width: 100%;
+    color: #FEFEFE;
+    box-sizing: border-box;
+}
+.fomContainer textarea::-webkit-input-placeholder {
+    color: #FEFEFE;
+  }
+  
+.fomContainer  textarea:-moz-placeholder { /* Firefox 18- */
+    color: #FEFEFE;  
+}
+  
+.fomContainer textarea::-moz-placeholder {  /* Firefox 19+ */
+    color: #FEFEFE;  
+}
+  
+.fomContainer textarea:-ms-input-placeholder {
+    color: #FEFEFE;  
+}
+  
+.fomContainer textarea::placeholder {
+    color: #FEFEFE;  
+}
+.fomContainer textarea:focus::-webkit-input-placeholder {
+    color: rgb(84, 82, 82);
+  }
+  
+.fomContainer  textarea:focus:-moz-placeholder { /* Firefox 18- */
+    color: rgb(84, 82, 82);  
+}
+  
+.fomContainer textarea:focus::-moz-placeholder{  /* Firefox 19+ */
+    color: rgb(84, 82, 82);  
+}
+  
+.fomContainer textarea:focus:-ms-input-placeholder {
+    color: rgb(84, 82, 82);  
+}
+  
+.fomContainer textarea:focus::placeholder {
+    color: rgb(84, 82, 82);  
+}
+.fomContainer input[type="email"]:focus,
+.fomContainer input[type="date"]:focus,
+.fomContainer input[type="time"]:focus,
+.fomContainer input[type="text"]:focus,
+.fomContainer select:focus,
+.fomContainer textarea:focus,
+.fomContainer input[type="number"]:focus,
+.fomContainer input[type="password"]:focus {
+    background: white;
+    transition: all 0.3s ease;
+    color: #222;
+}
+
+
+.fomContainer input[type="submit"] {
+    font-weight: 700;
+    font-size: 1.8em;
+    color: #111;
+    background: #fefefe;
+    box-shadow: 0px 4px 0px 0px #34537e;
+    border-style: none;
+    padding: 10px 50px;
+    margin: 25px 0 15px 0;
+    position: relative;
+    display: block;
+    transition: all .1s linear;
+    margin: 0 auto;
+}
+
+.fomContainer input[type="submit"]:active {
+    box-shadow: 0 2px 0 #394d6c;
+    transform: translateY(3px);
+    -webkit-transform: translateY(3px);
+    -ms-transform: translateY(3px);
+}
+.addContainer{
+    width: 95vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90%;
+}
+.addLebel{
+    font-weight: bolder;
+    padding-left: 2%;
+}
+
+.whiteBtn {
+    height: 100%;
+    padding: 1.7vh 4vw !important;
+    display: flex !important;
+    background: linear-gradient(90deg, #dee1e5, #90a7cb);
+    color: black !important;
+    margin-left: 2vw;
+    outline: #111;
+}
+.addedNotif{
+    width: 100%;
+    color: rgb(254, 254, 254);
+    font-weight: bold;
+    padding: 2%;
+    border: 3px solid white;
+    border-radius: 10px;
+    background: rgba(255,255,255,0.25);
+}
+.errorNotif {
+    width: 100%;
+    color: rgb(139, 10, 20);
+    font-weight: bold;
+    padding: 2%;
+    border: 3px solid rgb(109 0 10);
+    border-radius: 10px;
+    background: rgba(240, 15, 15, 0.23);
+}

@@ -1,0 +1,46 @@
+.courseCard {
+    background: rgb(203, 227, 235);
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px rgb(10 10 10 / 98%);
+    margin: 20px;
+    position: relative;
+    min-width: 170px;
+    width: 13vw;
+    box-sizing: border-box;
+    max-height: 160px;
+}
+.upperPanale {
+    padding: 1vh 0vw 0vh 1.5vw;
+    background: #516c96;
+    border-top-left-radius: inherit;
+    border-top-right-radius: inherit;
+    color: white;
+}
+.upperPanale h2{
+    font-weight: bolder;
+    font-size: 1.7rem;
+}
+
+.bottomPanale{
+    padding: 1vh 1vw;
+}
+
+.bottomPanale h4 {
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.addLebel {
+    font-weight: bolder;
+    padding-left: 2%;
+    font-size: 1.3rem;
+}
+
+.mainProfile h2 {
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+.mainProfile p {
+    font-size: 1.5rem;
+    font-weight: 600;
+}

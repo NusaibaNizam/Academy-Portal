@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css?family=Tajawal:300,400');
+
+.coursesProfile {
+    background: #516890;
+    height: 100%;
+    width: 100%;
+    flex: 9;
+}
+.profileCourseContainer{
+    width: 100%;
+    max-height: 80%;
+    overflow-y: auto;
+    display: inline-flex;
+    flex-wrap: wrap; 
+    flex-direction: row;
+}
+.boxProfile {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Tajawal', sans-serif;
+    width: 80%;
+    height: 80vh;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+
+}
+
+.mainProfile {
+    background:rgb(203, 227, 235);
+    flex: 5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+.bio {
+    font-weight: 20;
+    font-size: 12px;
+}
+
+.btnProfile {
+    display: flex;
+    flex: 1;
+    border: none;
+    outline: none;
+    background: linear-gradient(90deg, #8292ad, #516c96);
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    color: white !important;
+    font-size: 1.5rem;
+    text-decoration: none;
+    text-align: center;
+    margin: 20px;
+    box-shadow: 1px 5px 2.5px rgba(81, 108, 150, 0.5);
+    min-width: 150px;
+    max-height: 30px;
+}
+
+.imgContainerProfile {
+    height: 90px;
+    width: 90px;
+    z-index: 10;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #516c96;
+    justify-content: center;
+    background: linear-gradient(90deg, #8292ad, #516c96);
+    box-shadow: 1px 5px 2.5px rgba(81, 108, 150, 0.5);
+    margin: 5vh;
+
+}
+
+.imgContainerProfile img {
+    height: 90%;
+    width: 85%;
+    border-radius: 100%;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+    z-index: 1;
+}
+
+.profileCourseContainer::-webkit-scrollbar {
+    width: 12px;
+}
+
+.profileCourseContainer::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.162);
+}
+
+.profileCourseContainer::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: #808fa7;
+}
+.profileContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+}
+.profileCourseHeadeing{
+    width: 100%;
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 4vh;
+    text-decoration: dashed underline;
+}
+.mainProfile p{
+    font-size: 1.5rem;
+}
+.noUnderline{
+    text-decoration: none;
+}
+.profileBactchContainer {
+    display: flex;
+    margin:  5vh 0;
+}
+
+
+.mainProfile input[type="email"],
+.mainProfile input[type="text"],
+.mainProfile select,
+.mainProfile input[type="number"],
+.mainProfile input[type="password"] {
+    font-weight: 700;
+    padding: 6px;
+    border-width: 2px;
+    border-color: #516c96;
+    border-style: solid;
+    background: transparent;
+    color: #516c96;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+.mainProfile h2{
+    font-weight: bolder;
+    font-size: 1rem;
+}
+.mainProfile input[type="email"]:focus,
+.mainProfile input[type="text"]:focus,
+.mainProfile select:focus,
+.mainProfile input[type="number"]:focus,
+.mainProfile input[type="password"]:focus {
+    background: white;
+    transition: all 0.3s ease;
+    color: #222;
+}
+
+.mainProfile h6.addLebel {
+    margin: 0 11%;
+    text-align: center;
+}
+.boxProfile form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
