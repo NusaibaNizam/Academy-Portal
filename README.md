@@ -1,6 +1,6 @@
 # Academy Portal
 
-##Tools and Technology
+## Tools and Technology Used
 
 ### React Hooks
 
